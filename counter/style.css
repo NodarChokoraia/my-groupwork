@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding-top: 30px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size:50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    box-shadow:-4px -4px 10px -1px rgba(255, 255, 255, 0.226);
+}
+button:active{
+    box-shadow: inset 4px 4px 10px -1px rgba(255, 255, 255, 0.527);
+}
+svg{
+    fill: white;
+    width: 50px;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    height: 81vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+@media(max-width:425px){
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding-top: 30px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size:50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    box-shadow:-4px -4px 10px -1px rgba(255, 255, 255, 0.226);
+}
+button:active{
+    box-shadow: inset 4px 4px 10px -1px rgba(255, 255, 255, 0.527);
+}
+svg{
+    fill: white;
+    width: 50px;
+}
+
+p{
+    color: white;
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    height: 81vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+}
+
+@media(max-width:360px){
+
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        padding-top: 30px;
+    }
+    
+    button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size:50px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+        box-shadow:-4px -4px 10px -1px rgba(255, 255, 255, 0.226);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    button:active{
+        box-shadow: inset 4px 4px 10px -1px rgba(255, 255, 255, 0.527);
+    }
+    svg{
+        fill: white;
+        width: 50px;
+    }
+    
+    p{
+        color: white;
+        font-size: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    div{
+        height: 81vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    }
